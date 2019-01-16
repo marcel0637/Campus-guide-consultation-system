@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1295</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>校园导航系统</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>20</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>景点查询</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>起点选择:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>终点选择:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="to_getpath">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>20</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>路径查询</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="recommend">
+    <property name="geometry">
+     <rect>
+      <x>1070</x>
+      <y>20</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>路线推荐</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_1">
+    <property name="geometry">
+     <rect>
+      <x>412</x>
+      <y>30</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>正门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>图书馆</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第四教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二实验楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>钟楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>汇海</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>信息楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>行政办公楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第一篮球场</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学生公寓11幢</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>侧门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>篮球场</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>足球场</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学生公寓14幢</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学生公寓15幢</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学生公寓16幢</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学生公寓17幢</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>情人坡</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二田径场</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>体育馆</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>游泳馆</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>30</y>
+      <width>150</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>正门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>图书馆</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第四教学楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二实验楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>钟楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>汇海</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>信息楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>行政办公楼</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第一篮球场</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学生公寓11幢</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>侧门</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>篮球场</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>足球场</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学生公寓14幢</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学生公寓15幢</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学生公寓16幢</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>学生公寓17幢</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>情人坡</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>第二田径场</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>体育馆</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>游泳馆</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

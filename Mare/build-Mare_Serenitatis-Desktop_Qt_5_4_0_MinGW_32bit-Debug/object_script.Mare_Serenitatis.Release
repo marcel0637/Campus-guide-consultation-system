@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\getinfdialog.o
+./release\consult_window.o
+./release\warning_window.o
+./release\consult__window.o
+./release\moc_mainwindow.o
+./release\moc_getinfdialog.o
+./release\moc_consult_window.o
+./release\moc_warning_window.o
+./release\moc_consult__window.o
+);
